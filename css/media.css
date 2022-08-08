@@ -1,0 +1,131 @@
+@media screen and (max-width:768px) {
+
+    .fa-check,
+    .fa-book-journal-whills,
+    .fa-user-group,
+    .fa-award {
+        font-size: 1rem;
+    }
+
+    .conter-icon {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+    }
+
+    .counter-container {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .counter-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .col-sm-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+        color: red;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .header p::after {
+        font-size: 1.5rem;
+    }
+
+    #slider .item .test-para {
+        padding: 0;
+    }
+
+    #slider .item-img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .about .skill {
+        padding-left: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .about .about-me .pt-5 {
+        padding-top: 0rem !important;
+    }
+
+    .icon-plus {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-link {
+
+        margin-bottom: 0.5rem;
+        color: #1e1e1e !important;
+        padding: 1rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .show>.nav-link {
+        color: #0078ff;
+    }
+
+    .navbar .navbar-collapse .navbar-nav {
+        background-color: #fff;
+        height: 90vh;
+    }
+
+    .navbar,
+    .nav-link:hover {
+        color: #0078ff;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #navbar.navbar {
+        padding: 0.5rem 0;
+        width: 100%;
+    }
+
+    .row {
+        margin: 0 auto;
+        --bs-gutter-x: 0;
+    }
+
+    .blog .row {
+        --bs-gutter-x: 0;
+    }
+
+    .about {
+        margin: 0 15px;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .work-plus {
+        text-align: center;
+    }
+}
